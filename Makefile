@@ -2,4 +2,4 @@ all:
 	bash -c 'cd tf && pug .'
 
 clean:
-	rm -rf tf/*.html src/*.html
+	rm -rf tf/*.html
