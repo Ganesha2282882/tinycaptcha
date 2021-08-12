@@ -4,8 +4,8 @@ box.innerHTML = `<p>Please solve the CAPTCHA:</p><img src="https://api.qrserver.
 document.getElementById("number").addEventListener("change", (e) => {
     if (e.target.value == number) {
         number = null;
-        document.getElementById("tcr").value = "pass"
+        document.getElementById("tcr").value = "pass";
     } else {
-        document.getElementById("tcr").value = "fail"
+        document.getElementById("tcr").value = "fail";
     }
-})
+});
