@@ -1,0 +1,11 @@
+* tinycaptcha
+tinycaptcha is a small CAPTCHA service that uses QR codes.
+** Embedding
+Just add this to your =head= element:
+#+BEGIN_SRC html
+<script src="https://tinycapdata.ionllc.repl.co/host.php?f=captcha.js" defer></script>
+#+END_SRC
+And this to your =form= element, preferrably before your submit button:
+#+BEGIN_SRC html
+<div id="tc-captcha"></div>
+#+END_SRC
